@@ -1,0 +1,343 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.topbar{	
+    height: 1000px;
+	background-color: #f2f2f2;
+	overflow: hidden;
+}
+.topbar h1{
+	width:305px;
+	height:47px;
+	background-image: url(img/logo.png);
+	background-repeat: no-repeat;
+	text-indent: -99999px;
+     margin-top: 23px;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.list-info{
+	height:50px; 
+	width:946px;
+	background-image: url(img/menu.png);
+	background-repeat: no-repeat;
+	margin-top: 10px;
+}
+.list-info a{
+	color: #e6e6e6;
+	text-decoration: none;
+}
+.list-info ul li{
+	float: left;
+    margin-bottom: 15px;
+}
+.list-info li {
+	outline-width: 30px;
+	margin: 20px; 
+    display: inherit;
+    padding: 8px;
+    
+
+}
+.intro p{
+	width: 940px;
+    font-size: 19px;
+    line-height: 30px;
+    color: #767676;
+    margin-top: 25px;
+    outline-width: 30px;
+}
+.intro {
+	width: 960px;
+	margin: 0 auto;
+}
+.intro-info p{
+   color: black;
+   font-size: 18px;
+   margin-top: 20px;
+}
+.intro-info{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.portfolio_menu{
+	overflow: hidden;
+	margin-top: 19px;
+	line-height: 20px;
+	height: 700px;
+
+}
+
+
+.portfolio img{
+	float: left;
+    float: left;
+	width: 221px;
+	padding-right: 20px;
+    margin-bottom: 20px;
+
+}
+.portfolio{
+	width: 960px;
+	margin: 0 auto;
+}
+/* === footer === */
+.footer-wrapper{
+	height: 1005px;
+	background-color: #333333;
+   overflow: hidden;
+
+}
+
+.about_us{
+	width: 465px;
+	height: 356px;
+   margin-top: 40px;
+   float: left;
+   overflow: hidden;
+}
+.about_info h1{
+ font-size: 18px; 
+ height: 26px;
+ float-right: 20px;
+ margin-top: 15px;
+ margin-left: 20px;
+ font-weight: bold;
+}
+.about_info{
+   height: 50px;
+   background-color:#578372;
+   color: #e6e6e6; 
+   overflow: hidden; 
+}
+.about_text{
+	width: 465px;
+	height: 300px;
+	background-color: #2a2a2a;
+	overflow: hidden;
+}
+.about_text p{
+	width: 408px;
+	height:110px;
+	color: #b2b2b2;
+	margin-top: 12px;
+	line-height: 20px;
+	margin-left: 20px;
+}
+.button{
+    background-color: #539179;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 50px;
+    margin-left: 20px;
+}
+.button1 {
+	border-radius: 6px;
+}
+.footer-services{
+	width: 465px;
+	height: 514px;
+	
+}
+.services{
+	width: 465px;
+	height: 514px;
+	overflow: hidden;
+	background-color: #2a2a2a;
+	float: right;
+	margin-top: 40px; 
+}
+.our_services {
+	width:465px;
+	height: 50px; 
+	background-color: #40536f;
+	overflow: hidden;
+}
+.our_services h1{
+	font-size: 18px; 
+ height: 26px;
+ float-right: 20px;
+ margin-top: 15px;
+ margin-left: 20px;
+ color: white;
+ font-weight: bold;
+
+}
+.about_webdisgne p {
+    width: 408px;
+	height:90px;
+	color: #b2b2b2;
+	margin-top: 12px;
+	line-height: 20px;
+	margin-left: 20px;
+}
+.about_webdisgne h1{
+	font-size: 18px; 
+	float-right: 20px;
+	margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+.contact{
+	width: 465px ;
+	height: 540px;
+	overflow: hidden;
+	background-color: #282828;
+	margin-top: 20px;
+	float: left;
+}
+.contact_us {
+	width: 467px;
+	height: 51px;
+	background-color: #755a86;
+	overflow: hidden;
+}
+.contact_us h1{
+font-size: 18px; 
+ height: 26px;
+ float-right: 20px;
+ margin-top: 15px;
+ margin-left: 20px;
+ color: white;
+ font-weight: bold;
+}
+.contact_text p{
+	 width: 408px;
+	height:58px;
+	color: #b2b2b2;
+	margin-top: 12px;
+	line-height: 20px;
+	margin-left: 20px;
+}
+.contact form input{
+	height: 41px;
+	width: 329px;
+     background-color: #1f1f1f;
+     border: 0px;
+
+}
+.contact form textarea{
+	width: 330px;
+	height: 169px;
+	background-color: #1f1f1f;
+	resize: none;
+	border: 0px;
+	
+}
+.contact label{
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	line-height: 58px;
+	color: #b2b2b2;
+	font-weight: bold;
+	text-shadow: none;
+	margin-right: 47px;
+}
+.half-width{
+	overflow: hidden;
+	line-height: 20px;
+	margin-left: 20px;
+	width: 425px;
+
+}
+.full-width{
+	overflow: hidden;
+	margin-bottom: 10px;
+	line-height: 20px;
+	width: 450px;
+}
+.full-width label{
+	overflow: hidden;
+	line-height: 20px;
+	margin-left: 20px;
+	width: 425px;
+	margin-bottom: 30px;
+}
+.full-width textarea{
+	margin-left: 115px;
+}
+.button2{
+    background-color: #644c75;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 7px 50px;
+    margin-left: 115px;
+}
+.button2 {
+	border-radius: 6px;
+}
+.popular_post{
+	width: 466px;
+	height: 350px;
+	overflow: hidden;
+	background-color: #282828;
+	float: right;
+	margin-top: 18px; 
+}
+.popular_title{
+	width: 766px;
+	height: 49px;
+	background-color: #8a4646;
+	overflow: hidden;
+}
+.popular_title h1{
+ font-size: 18px; 
+ height: 26px;
+ float-right: 20px;
+ margin-top: 15px;
+ margin-left: 20px;
+ color: white;
+ font-weight: initial;
+}
+.popular_info{
+	overflow: hidden;
+	width: 425px;
+}
+.popular_info img {
+	float: left;
+	width: 74px; 
+	height: 74px;
+	margin-top: 20px;
+	line-height: 20px;
+	margin-left: 20px;
+}
+.popular_info p {
+	float: right;
+	width: 310px;
+	margin-top: 25px;
+	color: #e6e6e6;
+
+}
+.popular_info i {
+	float: right;
+	width: 310px;
+	margin-top: 16px;
+    color: #b2b2b2;
+}
+.container-footer{
+	width: 960px;
+	margin: 0 auto;
+}
+.footer{
+	height: 56px;
+	background-color: #f2f2f2;
+}
+.conteiner{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.conteiner p{
+	margin-top: 21px;
+	color: #737373;
+}
